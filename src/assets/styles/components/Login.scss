@@ -17,9 +17,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 700px;
   padding: 60px 68px 40px;
-  width: 300px;
 }
 
 .login__container--form {
@@ -73,4 +71,18 @@
 
 .login__container--register a:hover {
   text-decoration: underline;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
 }
