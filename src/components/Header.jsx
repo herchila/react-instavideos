@@ -8,8 +8,6 @@ import userIcon from '../assets/static/user-icon.png';
 
 const Header = props => {
   const { user } = props;
-  console.log("user", user);
-  console.log("props", props);
   const hasUser = Object.keys(user).length > 0;
 
   const handleLogout = () => {
@@ -27,7 +25,6 @@ const Header = props => {
             <img src={gravatar(user.email)} alt={user.email} /> :
             <img src={userIcon} alt="" />
           }
-          <p>Perfil</p>
         </div>
         <ul>
           {hasUser ?
